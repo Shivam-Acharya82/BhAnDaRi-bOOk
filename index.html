@@ -1,0 +1,890 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bhandaribook- Responsive social media website using Html, Css & java script </title>
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v2.1.6/css/unicons.css">
+    <link rel="stylesheet" href="stylesheet.css">
+
+</head>
+
+<body>
+    <nav>
+        <div class="container">
+            <h2 class="log">
+                BhAnDaRi bOOk
+            </h2>
+            <div class="search-bar">
+                <i class="uil uil-search"></i>
+                <input type="search" placeholder="search for creators,inspirations, and projects">
+            </div>
+            <div class="create">
+                <label class="btn btn-primary " for="Creat-post">Create</label>
+                <div class="profile-photo">
+                    <img src="myprofile.jpg" alt="">
+                </div>
+            </div>
+
+        </div>
+    </nav>
+</body>
+
+
+<!-----------------------------------------------------MAIN------------------------------->
+
+
+<main>
+    <div class="container">
+        <!--===============================================  Left start ==============================================================-->
+        <div class="left">
+            <a class="profile">
+                <div class="profile-photo">
+                    <img src="myprofile.jpg" alt="">
+                </div>
+                <div class="handle">
+                    <h4>
+                        Shivam
+                    </h4>
+                    <p class="text-muted">
+                        @bhandari
+                    </p>
+                </div>
+            </a>
+
+            <!--side bar ------------------------------------->
+            <div class="sidebar">
+                <a class="menu-item active">
+                    <span><i class="uil uil-home"></i></span>
+                    <h3>Home</h3>
+                </a>
+
+                <!-- <a class="menu-item"> -->
+                    <!-- <span><i class="uil uil-compass"></i></span> -->
+                    <!-- <h3>Explore</h3> -->
+                    <!-- </a> -->
+
+                    <a href="about.html" target="_blank"  class="menu-item" id="shivam">
+
+                        <span><i class="uil uil-user"></i></span>
+                        <h3> About me </h3>
+                    </a>
+
+                    
+                    <a class="menu-item " id="notifications">
+
+                    <span><i class="uil uil-bell"><small class="notification-count">9+</small> </i></span>
+                    <h3>Notifications</h3>
+                    <!-----------Notification popup-------------------->
+                    <div class="notification-popup">
+                        <div>
+                            <div class="profile-photo">
+                                <img src="saad.jpg" alt="">
+                            </div>
+                            <div class="notification-body">
+                                <b>MD. Saad Malik </b> accepted your friend request.
+                                <small class="text-muted">2 Days Ago</small>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="profile-photo">
+                                <img src="abrar.jpg" alt="">
+                            </div>
+                            <div class="notification-body">
+                                <b>MD. Abrar Khan </b> accepted your friend request.
+                                <small class="text-muted">5 Days Ago</small>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="profile-photo">
+                                <img src="rishu.jpg" alt="">
+                            </div>
+                            <div class="notification-body">
+                                <b>Rishu Mehta </b> and <b>110 others </b> like your Post
+                                <small class="text-muted">4 Hours Ago</small>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="profile-photo">
+                                <img src="kunal.jpg" alt="">
+                            </div>
+                            <div class="notification-body">
+                                <b> Kunal Kishore </b> commented on your Post
+                                <small class="text-muted">1 Hour Ago</small>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="profile-photo">
+                                <img src="C:\Users\Am Dee\Desktop\1\photos\shivam2.jpg" alt="">
+                            </div>
+                            <div class="notification-body">
+                                <b>Nitish Kumar </b> commented on a post you're tagged in
+                                <small class="text-muted">27 Minute Ago</small>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="profile-photo">
+                                <img src="shivam1.jpg" alt="">
+                            </div>
+                            <div class="notification-body">
+                                <b>Ajit kumar </b> commented on your post
+                                <small class="text-muted">10 Second Ago</small>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+
+                <a class="menu-item" id="messages-notifications">
+                    <span><i class="uil uil-message"><small class="notification-count">8</small></i></span>
+                    <h3>Messages</h3>
+                </a>
+                
+                <!-- <a class="menu-item"> -->
+
+                    <!-- <span><i class="uil uil-chart-line"></i></span> -->
+                    <!-- <h3>Analytics</h3> -->
+                <!-- </a> -->
+                <a class="menu-item" id="theme">
+                    <span><i class="uil uil-palette"></i></span>
+                    <h3>Theme</h3>
+                </a>
+                <a class="menu-item">
+
+                    <span><i class="uil uil-setting"></i></span>
+                    <h3>Setting</h3>
+                </a>
+            </div>
+            <!-------------------------End of sidebar---------------------->
+            <label for="create-post" class="btn btn-primary">Create Post</label>
+
+        </div>
+
+
+        <!--=============================================  End of left ===================================-->
+
+
+        <!--=============================================  Middle Start ==========================================-->
+
+        <div class="middle">
+            <!--==================================stories======================================-->
+            <div class="stories">
+                <div class="story">
+                    <div class="profile-photo">
+                        <img src="myprofile.jpg" alt="">
+                    </div>
+                    <p class="name">Your story</p>
+                </div>
+                <div class="story">
+                    <div class="profile-photo">
+                        <img src="saad.jpg" alt="">
+                    </div>
+                    <p class="name">MD. Saad Malik</p>
+                </div>
+                <div class="story">
+                    <div class="profile-photo">
+                        <img src="abrar.jpg" alt="">
+                    </div>
+                    <p class="name">MD. Abrar Khan</p>
+                </div>
+                <div class="story">
+                    <div class="profile-photo">
+                        <img src="rishu.jpg" alt="">
+                    </div>
+                    <p class="name">Rishu Mehta</p>
+                </div>
+                <div class="story">
+                    <div class="profile-photo">
+                        <img src="kunal.jpg" alt="">
+                    </div>
+                    <p class="name">kunal Kishore</p>
+                </div>
+                <div class="story">
+                    <div class="profile-photo">
+                        <img src="shivam1.jpg" alt="">
+                    </div>
+                    <p class="name">Nitish Kumar</p>
+                </div>
+            </div>
+            <!--=========================================  End of stories  ==============================-->
+
+            <form class="create-post">
+                <div class="profile-photo">
+                    <img src="myprofile.jpg">
+                </div>
+                <input type="text" placeholder="What's on your mind, Shivam? " id="create-post">
+                <input type="submit" value="post" class="btn btn-primary">
+            </form>
+
+            <!--======================================  Feeeds ======================================================-->
+
+            <!--=================================================== 1st person===================================================================================-->
+
+            <div class="feeds">
+
+                <div class="feed">
+                    <div class="head">
+                        <div class="user">
+                            <div class="profile-photo">
+                                <img src="myprofile.jpg">
+                            </div>
+                            <div class="ingo">
+                                <h3>shivam Bhandari </h3>
+                                <small>Malout, 20 Minute Ago</small>
+                            </div>
+                        </div>
+                        <span class="edit">
+                          <a href=""></a>  <i class="uil uil-ellipsis-h"></i>
+                        </span>
+                    </div>
+                    <div class="photo">
+                        <img src="shivam5.jpg">
+                    </div>
+                    <div class="action-buttons">
+                        <div class="interaction-button">
+                            <span><i class="uil uil-heart"></i></span>
+                            <span><i class="uil uil-comment-dots"></i></span>
+                            <span><i class="uil uil-share-alt"></i></span>
+
+                        </div>
+                        <div class="bookmark">
+                            <span>
+                                <span><i class="uil uil-bookmark-full"></i></span>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="liked-by">
+                        <span><img src="shivam3.jpg" alt=""></span>
+                        <span><img src="rishu.jpg" alt=""></span>
+                        <span><img src="abrar.jpg" alt=""></span>
+                        <p> Liked by <b>Shivam acharya</b> and <b>2,023 others </b></p>
+                    </div>
+                    <div class="caption">
+                        <p><b> shivam bhandari </b>chilling in hostle alone
+                            <span class="harsh-tag"></span>#hostellife
+                        </p>
+                    </div>
+                    <div class=" comments text-muted">view all 437 comments
+                    </div>
+                </div>
+                <!--============================================2nd person=================================================================================================-->
+                <div class="feeds">
+
+                    <div class="feed">
+                        <div class="head">
+                            <div class="user">
+                                <div class="profile-photo">
+                                    <img src="rishu.jpg">
+                                </div>
+                                <div class="ingo">
+                                    <h3>Rishu Mehta </h3>
+                                    <small>Malout, 1 Hour Ago</small>
+                                </div>
+                            </div>
+                            <span class="edit">
+                                <i class="uil uil-ellipsis-h"></i>
+                            </span>
+                        </div>
+                        <div class="photo">
+                            <img src="rishu.jpg">
+                        </div>
+                        <div class="action-buttons">
+                            <div class="interaction-button">
+                                <span><i class="uil uil-heart"></i></span>
+                                <span><i class="uil uil-comment-dots"></i></span>
+                                <span><i class="uil uil-share-alt"></i></span>
+
+                            </div>
+                            <div class="bookmark">
+                                <span>
+                                    <span><i class="uil uil-bookmark-full"></i></span>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="liked-by">
+                            <span><img src="shivam3.jpg" alt=""></span>
+                            <span><img src="rishu.jpg" alt=""></span>
+                            <span><img src="abrar.jpg" alt=""></span>
+                            <p> Liked by <b>malwal_saab5</b> and <b>1,023 others </b></p>
+                        </div>
+                        <div class="caption">
+                            <p><b> Rishu Mehta </b> something is better than nothing
+                                <span class="harsh-tag"></span>#hostellife
+                            </p>
+                        </div>
+                        <div class=" comments text-muted">view all 254 comments
+                        </div>
+                    </div>
+
+                    <!-- ======================================= Malwal saab ============================== -->
+
+                    <div class="feeds">
+
+                        <div class="feed">
+                            <div class="head">
+                                <div class="user">
+                                    <div class="profile-photo">
+                                        <img src="neha1.jpg">
+                                    </div>
+                                    <div class="ingo">
+                                        <h3>malwal_saab5 </h3>
+                                        <small>Malout, 1 Hour Ago</small>
+                                    </div>
+                                </div>
+                                <span class="edit">
+                                    <i class="uil uil-ellipsis-h"></i>
+                                </span>
+                            </div>
+                            <div class="photo">
+                                <img src="neha.jpeg">
+                            </div>
+                            <div class="action-buttons">
+                                <div class="interaction-button">
+                                    <span><i class="uil uil-heart"></i></span>
+                                    <span><i class="uil uil-comment-dots"></i></span>
+                                    <span><i class="uil uil-share-alt"></i></span>
+    
+                                </div>
+                                <div class="bookmark">
+                                    <span>
+                                        <span><i class="uil uil-bookmark-full"></i></span>
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="liked-by">
+                                <span><img src="shivam3.jpg" alt=""></span>
+                                <span><img src="rishu.jpg" alt=""></span>
+                                <span><img src="abrar.jpg" alt=""></span>
+                                <p> Liked by <b> rishu_mehta_</b> and <b>3,234,442 others </b></p>
+                            </div>
+                            <div class="caption">
+                                <p><b> malwal_saab5  </b> Oops is always better than what if . So go out and create something 
+                                    <span class="harsh-tag"></span>#Happiness
+                                </p>
+                            </div>
+                            <div class=" comments text-muted">view all 8,827 comments
+                            </div>
+                        </div>
+                    </div>
+
+<!--======================================================================= 3rd person==========================================-->
+                    
+                      <div class="feeds">
+
+                    <div class="feed">
+                        <div class="head">
+                            <div class="user">
+                                <div class="profile-photo">
+                                    <img src="amdee.jpg">
+                                </div>
+                                <div class="ingo">
+                                    <h3> am_Dee_Bhandari </h3>
+                                    <small>Noida, 2 Minute Ago</small>
+                                </div>
+                            </div>
+                            <span class="edit">
+                                <i class="uil uil-ellipsis-h"></i>
+                            </span>
+                        </div>
+                        <div class="photo">
+                            <img src="amdee.jpg">
+                        </div>
+                        <div class="action-buttons">
+                            <div class="interaction-button">
+                                <span><i class="uil uil-heart"></i></span>
+                                <span><i class="uil uil-comment-dots"></i></span>
+                                <span><i class="uil uil-share-alt"></i></span>
+
+                            </div>
+                            <div class="bookmark">
+                                <span>
+                                    <span><i class="uil uil-bookmark-full"></i></span>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="liked-by">
+                            <span><img src="shivam3.jpg" alt=""></span>
+                            <span><img src="rishu.jpg" alt=""></span>
+                            <span><img src="abrar.jpg" alt=""></span>
+                            <p> Liked by <b>Shivam Bhandari </b> and <b>9,247 others </b></p>
+                        </div>
+                        <div class="caption">
+                            <p><b>am_Dee_Bhandari </b> pahele Bramhan hone par garv tha <br>
+                                aab Bramhan hone par Ghamand he 
+                                <span class="harsh-tag"></span>#HarHarMahadev
+                            </p>
+                        </div>
+                        <div class=" comments text-muted">view all 3,376 comments
+                        </div>
+                    </div>
+                    <!--============================================================== 4rd person =============================================================================================-->
+                    <div class="feeds">
+
+                        <div class="feed">
+                            <div class="head">
+                                <div class="user">
+                                    <div class="profile-photo">
+                                        <img src="saad.jpg">
+                                    </div>
+                                    <div class="ingo">
+                                        <h3> MD. Saad Malik</h3>
+                                        <small>Malout, 5 Days Ago</small>
+                                    </div>
+                                </div>
+                                <span class="edit">
+                                    <i class="uil uil-ellipsis-h"></i>
+                                </span>
+                            </div>
+                            <div class="photo">
+                                <img src="saad1.jpg">
+                            </div>
+                            <div class="action-buttons">
+                                <div class="interaction-button">
+                                    <span><i class="uil uil-heart"></i></span>
+                                    <span><i class="uil uil-comment-dots"></i></span>
+                                    <span><i class="uil uil-share-alt"></i></span>
+
+                                </div>
+                                <div class="bookmark">
+                                    <span>
+                                        <span><i class="uil uil-bookmark-full"></i></span>
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="liked-by">
+                                <span><img src="shivam3.jpg" alt=""></span>
+                                <span><img src="rishu.jpg" alt=""></span>
+                                <span><img src="abrar.jpg" alt=""></span>
+                                <p> Liked by <b>Rishu Mehta</b> and <b>947 others </b></p>
+                            </div>
+                            <div class="caption">
+                                <p><b> MD. Saad Malik </b> the best team name is challangers
+                                    <span class="harsh-tag"></span>#prayog2.0
+                                </p>
+                            </div>
+                            <div class=" comments text-muted">view all 229 comments
+                            </div>
+                        </div>
+                        <!--================================================================== 5th person=================================================================================-->
+                        <div class="feeds">
+
+                            <div class="feed">
+                                <div class="head">
+                                    <div class="user">
+                                        <div class="profile-photo">
+                                            <img src="kunal.jpg">
+                                        </div>
+                                        <div class="ingo">
+                                            <h3>Kunal Kishor </h3>
+                                            <small>chandigarh, 1 Minute Ago</small>
+                                        </div>
+                                    </div>
+                                    <span class="edit">
+                                        <i class="uil uil-ellipsis-h"></i>
+                                    </span>
+                                </div>
+                                <div class="photo">
+                                    <img src="kunal.jpg">
+                                </div>
+                                <div class="action-buttons">
+                                    <div class="interaction-button">
+                                        <span><i class="uil uil-heart"></i></span>
+                                        <span><i class="uil uil-comment-dots"></i></span>
+                                        <span><i class="uil uil-share-alt"></i></span>
+
+                                    </div>
+                                    <div class="bookmark">
+                                        <span>
+                                            <span><i class="uil uil-bookmark-full"></i></span>
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="liked-by">
+                                    <span><img src="shivam3.jpg" alt=""></span>
+                                    <span><img src="rishu.jpg" alt=""></span>
+                                    <span><img src="abrar.jpg" alt=""></span>
+                                    <p> Liked by <b>Nitish kumar </b> and <b>3,427 others </b></p>
+                                </div>
+                                <div class="caption">
+                                    <p><b> Kunal Kishore</b> sab moha maya he "sada jivam ucchha Bichar"
+                                        <span class="harsh-tag"></span>#yoyo in oyo
+                                    </p>
+                                </div>
+                                <div class=" comments text-muted">view all 674 comments
+                                </div>
+                            </div>
+
+                            <!--====================================================================== 6th person=============================================================================-->
+                            <div class="feeds">
+
+                                <div class="feed">
+                                    <div class="head">
+                                        <div class="user">
+                                            <div class="profile-photo">
+                                                <img src="shivam2.jpg">
+                                            </div>
+                                            <div class="ingo">
+                                                <h3>Nitish Kumar </h3>
+                                                <small>Malout, 2 Days Ago</small>
+                                            </div>
+                                        </div>
+                                        <span class="edit">
+                                            <i class="uil uil-ellipsis-h"></i>
+                                        </span>
+                                    </div>
+                                    <div class="photo">
+                                        <img src="nitish.jpg">
+                                    </div>
+                                    <div class="action-buttons">
+                                        <div class="interaction-button">
+                                            <span><i class="uil uil-heart"></i></span>
+                                            <span><i class="uil uil-comment-dots"></i></span>
+                                            <span><i class="uil uil-share-alt"></i></span>
+
+                                        </div>
+                                        <div class="bookmark">
+                                            <span>
+                                                <span><i class="uil uil-bookmark-full"></i></span>
+                                            </span>
+                                        </div>
+                                    </div>
+                                    <div class="liked-by">
+                                        <span><img src="shivam3.jpg" alt=""></span>
+                                        <span><img src="rishu.jpg" alt=""></span>
+                                        <span><img src="abrar.jpg" alt=""></span>
+                                        <p> Liked by <b>Shivam acharya</b> and <b>7,665 others </b></p>
+                                    </div>
+                                    <div class="caption">
+                                        <p><b>Nitish Kumar </b> New chapter of life is begin from this collage and some
+                                            great friends .
+                                            <span class="harsh-tag"></span>#MIMIT MALOUT
+                                        </p>
+                                    </div>
+                                    <div class=" comments text-muted">view all 1720 comments
+                                    </div>
+                                </div>
+
+                                <!--================================================================== 7th person================================================================-->
+
+                                <div class="feeds">
+
+                                    <div class="feed">
+                                        <div class="head">
+                                            <div class="user">
+                                                <div class="profile-photo">
+                                                    <img src="abrar.jpg">
+                                                </div>
+                                                <div class="ingo">
+                                                    <h3> MD. Abrar Khan </h3>
+                                                    <small>Jharkhand, 2 Weeks Ago</small>
+                                                </div>
+                                            </div>
+                                            <span class="edit">
+                                                <i class="uil uil-ellipsis-h"></i>
+                                            </span>
+                                        </div>
+                                        <div class="photo">
+                                            <img src="abrar.jpg">
+                                        </div>
+                                        <div class="action-buttons">
+                                            <div class="interaction-button">
+                                                <span><i class="uil uil-heart"></i></span>
+                                                <span><i class="uil uil-comment-dots"></i></span>
+                                                <span><i class="uil uil-share-alt"></i></span>
+
+                                            </div>
+                                            <div class="bookmark">
+                                                <span>
+                                                    <span><i class="uil uil-bookmark-full"></i></span>
+                                                </span>
+                                            </div>
+                                        </div>
+                                        <div class="liked-by">
+                                            <span><img src="shivam3.jpg" alt=""></span>
+                                            <span><img src="rishu.jpg" alt=""></span>
+                                            <span><img src="abrar.jpg" alt=""></span>
+                                            <p> Liked by <b>MD. Saad Malik </b> and <b>2,497 others </b></p>
+                                        </div>
+                                        <div class="caption">
+                                            <p><b>MD. Abrar Khan </b> sitches get stitches .
+                                                <span class="harsh-tag"></span>#hostellife
+                                            </p>
+                                        </div>
+                                        <div class=" comments text-muted">view all 1,376 comments
+                                        </div>
+                                    </div>
+                                    <!--======================================= 8th person ===================================-->
+                                    <div class="feeds">
+
+                                        <div class="feed">
+                                            <div class="head">
+                                                <div class="user">
+                                                    <div class="profile-photo">
+                                                        <img src="shivam1.jpg">
+                                                    </div>
+                                                    <div class="ingo">
+                                                        <h3> Nishant Kumar Vidhu </h3>
+                                                        <small>Jharkhand, 2 Days Ago</small>
+                                                    </div>
+                                                </div>
+                                                <span class="edit">
+                                                    <i class="uil uil-ellipsis-h"></i>
+                                                </span>
+                                            </div>
+                                            <div class="photo">
+                                                <img src="shivam4.jpg">
+                                            </div>
+                                            <div class="action-buttons">
+                                                <div class="interaction-button">
+                                                    <span><i class="uil uil-heart"></i></span>
+                                                    <span><i class="uil uil-comment-dots"></i></span>
+                                                    <span><i class="uil uil-share-alt"></i></span>
+    
+                                                </div>
+                                                <div class="bookmark">
+                                                    <span>
+                                                        <span><i class="uil uil-bookmark-full"></i></span>
+                                                    </span>
+                                                </div>
+                                            </div>
+                                            <div class="liked-by">
+                                                <span><img src="shivam3.jpg" alt=""></span>
+                                                <span><img src="rishu.jpg" alt=""></span>
+                                                <span><img src="abrar.jpg" alt=""></span>
+                                                <p> Liked by <b> Rishu Mehta </b> and <b>11,497 others </b></p>
+                                            </div>
+                                            <div class="caption">
+                                                <p><b> Nishant Kumar Vidhu </b> Nothing or Nobody is handsome than this guy SHIVAM BHANDARI 
+                                                    <span class="harsh-tag"></span>#hostellife #handsomehunk
+                                                </p>
+                                            </div>
+                                            <div class=" comments text-muted">view all 7,376 comments
+                                            </div>
+                                        </div>
+                                    </div>
+                                      </div>
+                                    <!--========================== End of feed =======================================================================-->
+
+                                </div>
+                                <!--=================================================== End of Feeds ===============================================-->
+
+                            </div>
+
+                            <!--===========================================================  End Of Middle =============================================================-->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+        <!--=============================================  Right  ==========================================-->
+
+        <div class="right">
+            <div class="messages">
+                <div class="heading">
+                    <h4>Messages</h4> <i class="uil uil-edit"></i>
+                </div>
+                <!--============================ search bar ============================-->
+
+                <div class="search-bar">
+                    <i class="uil uil-search"></i>
+                    <input type="search" placeholder="Search messages" id="message-search">
+                </div>
+
+                <!--============================  Message catogries ===============================-->
+                <div class="category">
+                    <h6 class="active">Primary </h6>
+                    <h6>General</h6>
+                    <h6 class="message-requests">Request(9) </h6>
+                </div>
+                <!--================================= Message ===============================-->
+                <div class="message">
+                    <div class="profile-photo">
+                        <img src="kunal.jpg">
+                        <div class="active"></div>
+                    </div>
+                    <div class="message-body">
+                        <h5>Kunal Kishor </h5>
+                        <p class="text-muted">bas abhe utha hu bhai </p>
+                    </div>
+                </div>
+                <div class="message">
+                    <div class="profile-photo">
+                        <img src="saad2.jpg">
+                        <div class="active"></div>
+                    </div>
+                    <div class="message-body">
+                        <h5>MD. Saad Malik </h5>
+                        <p class="text-muted">Hi good morning. <br>
+                            kitne der me aa rahe ho 
+                        </p>
+                    </div>
+                </div>
+                <div class="message">
+                    <div class="profile-photo">
+                        <img src="neha1.jpg">
+                        <div class="active"></div>
+                    </div>
+                    <div class="message-body">
+                        <h5>malwal_saab5 </h5>
+                        <p class="text-muted"> Many Many Happy return <br> of the day shivam </p>
+                    </div>
+                </div>
+
+                <div class="message">
+                    <div class="profile-photo">
+                        <img src="satveer.jpg">
+                    </div>
+                    <div class="message-body">
+                        <h5> Amandeep Kaur </h5>
+                        <p class="text-muted"> Aaj class aa rahe ho <br> kya shivam</p>
+                    </div>
+                </div>
+                
+                <div class="message">
+                    <div class="profile-photo">
+                        <img src="rishu.jpg">
+                    </div>
+                    <div class="message-body">
+                        <h5>rishu_mehta_</h5>
+                        <p class="text-muted"> Dont Quit Your Day Dream.. </p>
+                    </div>
+                </div>
+            </div>
+
+            <!--==================================== End of messages =====================================-->
+
+            <!--====================================== Friend requests =======================================-->
+
+            <div class="friend-requests">
+                <h4>Requests</h4>
+                <div class="request">
+                    <div class="info">
+                        <div class="profile-photo">
+                            <img src="nitish.jpg">
+                        </div>
+                        <div>
+                            <h5>Shubham Kumar Garg </h5>
+                            <p class="text-muted">8 mutual friends </p>
+                        </div>
+                    </div>
+                    <div class="action">
+                        <button class="btn btn-primary">
+                            Accept
+                        </button>
+                        <button class="btn">
+                            Decline
+                        </button>
+                    </div>
+                </div>
+                <div class="request">
+                    <div class="info">
+                        <div class="profile-photo">
+                            <img src="shivam2.jpg">
+                        </div>
+                        <div>
+                            <h5>Ajit Kumar </h5>
+                            <p class="text-muted">19 mutual friends</p>
+                        </div>
+                    </div>
+                    <div class="action">
+                        <button class="btn btn-primary">
+                            Accept
+                        </button>
+                        <button class="btn">
+                            Decline
+                        </button>
+                    </div>
+                </div>
+                <div class="request">
+                    <div class="info">
+                        <div class="profile-photo">
+                            <img src="shivam1.jpg">
+                        </div>
+                        <div>
+                            <h5>Nic_Redox</h5>
+                            <p class="text-muted">23 mutual friends</p>
+                        </div>
+                    </div>
+                    <div class="action">
+                        <button class="btn btn-primary">
+                            Accept
+                        </button>
+                        <button class="btn">
+                            Decline
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--================================================================= End of Right=============================================================-->
+    </div>
+</main>
+<!--================================================================  Theme Custonization ==================================================================-->
+<div class="customize-theme">
+    <div class="card">
+        <h2>Customized your view</h2>
+        <p class="text-muted">Manage your font size, color, and background.</p>
+
+        <!--===================================== Font Sizes =====================================-->
+        <div class="font-size">
+            <h4> Font Size</h4>
+            <div>
+                <h6>Aa</h6>
+                <div class="choose-size">
+                    <span class="font-size-1"></span>
+                    <span class="font-size-2"></span>
+                    <span class="font-size-3 active"></span>
+                    <span class="font-size-4"></span>
+                    <span class="font-size-5"></span>
+                </div>
+                <h3>Aa</h3>
+            </div>
+        </div>
+
+        <!--==================== Primary Colors======================-->
+        <div class="color">
+            <h4>color</h4>
+            <div class="choose-color">
+                <span class="color-1 active"></span>
+                <span class="color-2"></span>
+                <span class="color-3"></span>
+                <span class="color-4"></span>
+                <span class="color-5"></span>
+            </div>
+        </div>
+
+        <!--============================== Background Colors==============================-->
+
+        <div class="background">
+            <h4>Background</h4>
+            <div class="choose-bg">
+                <div class="bg-1 active">
+                    <span></span>
+                    <h5 for="bg-1">Ligiht</h5>
+                </div>
+                <div class="bg-2">
+                    <span></span>
+                    <h5>Dim</h5>
+                </div>
+                <div class="bg-3">
+                    <span></span>
+                    <h5 for="bg-3">Lights out </h5>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!--================================= Java script start============-->
+
+<script src="java.js"></script>
+
+</body>
+
+</html>
