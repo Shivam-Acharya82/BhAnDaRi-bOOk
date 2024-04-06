@@ -315,27 +315,27 @@ main .container .left{
 
 
     .middle .stories .story:nth-child(1){
-      background: url(shivam4.jpg)
+      background: url(/img/shivam4.jpg)
       no-repeat center center/cover;
     }
     .middle .stories .story:nth-child(2){
-      background: url(saad.jpg)
+      background: url(/img/saad.jpg)
       no-repeat center center/cover;
     }
     .middle .stories .story:nth-child(3){
-      background: url(abrar.jpg)
+      background: url(/img/abrar.jpg)
       no-repeat center center/cover;
     }
     .middle .stories .story:nth-child(4){
-      background: url(rishu.jpg)
+      background: url(/img/rishu.jpg)
       no-repeat center center/cover;
     }
     .middle .stories .story:nth-child(5){
-      background: url(kunal.jpg)
+      background: url(/img/kunal.jpg)
       no-repeat center center/cover;
     }
     .middle .stories .story:nth-child(6){
-      background: url(shivam3.jpg)
+      background: url(/img/shivam3.jpg)
       no-repeat center center/cover;
     }
     .middle .story .profile-photo{
